@@ -12,7 +12,6 @@ Google Apps Scriptを用いて、スプレッドシートの拡張関数を定�
 
 ## 環境変数の一覧
 ### GEMINI_API
-以下手順により作成する（詳細はYoutubeを参照のこと）。なお、すでにGoogle Cloud プラットフォームにてプロジェクト作成済みの方は以下3より対象。
-1. [Google Cloud プラットフォーム](https://console.cloud.google.com/?hl=ja)へ参加する。
-2. Google Cloud プラットフォーム上でプロジェクトを作成する。
-3. [Google AI Studio](https://ai.google.dev/aistudio)からAPIキーを作成する。
+以下手順により作成する（詳細はYoutubeを参照のこと）。
+1. [Google AI Studio](https://ai.google.dev/aistudio)にアクセスする。
+2. [Get API Key]よりGemini呼び出し用のAPIキーを作成する。
