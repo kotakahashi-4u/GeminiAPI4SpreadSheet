@@ -10,7 +10,7 @@ const GEMINI_API = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
  */
 function GeminiHelp(key1, key2) {
   try {
-    const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=${GEMINI_API}`,
+    const url = `https://generativelanguage.googleapis.com/v1/models/gemini-pro:generateContent?key=${GEMINI_API}`,
           payload = {
             'contents': [{
               'parts': [{
