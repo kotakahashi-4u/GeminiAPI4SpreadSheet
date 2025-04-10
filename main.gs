@@ -10,7 +10,9 @@ const GEMINI_API = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX';
  */
 function GeminiHelp(key1, key2) {
   try {
-    const url = `https://generativelanguage.googleapis.com/v1/models/gemini-pro:generateContent?key=${GEMINI_API}`,
+    // モデルはサポート切れを起こすこともあるため、その時に応じて最適なものを設定すること
+    // モデル一覧：https://ai.google.dev/gemini-api/docs/models?hl=ja
+    const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro-exp-03-25:generateContent?key=${GEMINI_API}`,
           payload = {
             'contents': [{
               'parts': [{
